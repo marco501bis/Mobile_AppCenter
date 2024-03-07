@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "MonoAndroid,Version=v13.0": {
+      "Mobile_AppCenter/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Forms": "5.0.0.2196"
+        },
+        "compile": {
+          "bin/placeholder/Mobile_AppCenter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mobile_AppCenter.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mobile_AppCenter/1.0.0": {
+      "type": "project",
+      "path": "../Mobile_AppCenter/Mobile_AppCenter.csproj",
+      "msbuildProject": "../Mobile_AppCenter/Mobile_AppCenter.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "MonoAndroid,Version=v13.0": [
+      "Mobile_AppCenter >= 1.0.0",
+      "Xamarin.Essentials >= 1.7.0",
+      "Xamarin.Forms >= 5.0.0.2196"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\marco\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\marco\\VisualStudioProjects\\Mobile_AppCenter\\Mobile_AppCenter.Android\\Mobile_AppCenter.Android.csproj",
+      "projectName": "Mobile_AppCenter.Android",
+      "projectPath": "C:\\Users\\marco\\VisualStudioProjects\\Mobile_AppCenter\\Mobile_AppCenter.Android\\Mobile_AppCenter.Android.csproj",
+      "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marco\\VisualStudioProjects\\Mobile_AppCenter\\Mobile_AppCenter.Android\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "monoandroid13.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "monoandroid13.0": {
+          "projectReferences": {
+            "C:\\Users\\marco\\VisualStudioProjects\\Mobile_AppCenter\\Mobile_AppCenter\\Mobile_AppCenter.csproj": {
+              "projectPath": "C:\\Users\\marco\\VisualStudioProjects\\Mobile_AppCenter\\Mobile_AppCenter\\Mobile_AppCenter.csproj"
+            }
+          }
+        }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "monoandroid13.0": {
+        "dependencies": {
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[5.0.0.2196, )"
+          }
+        }
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Xamarin.Forms. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v13.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Xamarin.Essentials. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "MonoAndroid,Version=v13.0"
+      ]
+    }
+  ]
+}

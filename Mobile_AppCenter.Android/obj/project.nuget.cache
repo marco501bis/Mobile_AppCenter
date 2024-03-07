@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "pfEgXAoQSbd7Z5gWTMFOHzn4Unn+x34WIsPfnayM8WEx5QFkOk5THTJ+c9XgJIfudImzws2FDSfbMSJ9mk1v9g==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\marco\\VisualStudioProjects\\Mobile_AppCenter\\Mobile_AppCenter.Android\\Mobile_AppCenter.Android.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Xamarin.Forms. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v13.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Xamarin.Essentials. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "MonoAndroid,Version=v13.0"
+      ]
+    }
+  ]
+}
